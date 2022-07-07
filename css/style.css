@@ -1,0 +1,107 @@
+header{
+    width: 92%;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    margin: 0;
+    width: 56px;
+    height: 56px;
+}
+
+.logo{
+    width: 100%;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.header-list li{
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 56px;
+}
+
+.header-list li a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.main-container{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.main-container p{
+    font-size: 21px;
+}
+
+.main-container h2{
+    font-size: 21px;
+}
+
+.main-contents{
+    display: flex;
+    margin-top: 40px;
+}
+
+.main-left{
+    width: 50%;
+    padding-right: 72px;
+    box-sizing: border-box;
+}
+
+.main-right{
+    width: 50%;
+}
+
+.right-contents{
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.right-contents h3{
+    margin: 0;
+}
+
+.right-last{
+    margin-bottom: 0;
+}
+
+
+footer{
+    padding: 20px 4%;
+    background-color: rgba(211,211,211,0.3);
+    margin-top: 40px;
+}
+
+.footer-main{
+    display: flex;
+}
+
+.footer-contents{
+    margin-right: 220px;
+}
+
+.footer-contents h3{
+    padding-left: 40px;
+}
+
+.footer-contents ul li a{
+    text-decoration: none;
+}
+
+small{
+    display: block;
+    text-align: center;
+    opacity: 0.7;
+}
